@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a392f9;
+    margin: 0;
+    padding: 20px;
+}
+
+#container {
+    background-color: #dbd1eb;
+    border-radius: 10px;
+    padding : 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    color: #2d2828;
+}
+
+#contador {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#buttons {
+    button {
+        padding: 10px;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    justify-content: center;
+    margin: 20px;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+
+}
