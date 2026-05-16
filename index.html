@@ -1,24 +1,34 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reto 1- Contador</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Selector RGB</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <br>
-    <h1 class="title">Contador</h1>
-    <br>
-    <div id="container">    
-    <p id="contador">0</p>
+    <div class="container">
+        <h1>Selector RGB</h1>
+        
+        <div class="control-group">
+            <label for="red">Rojo</label>
+            <input type="range" id="red" name="red" min="0" max="255" value="100">
+            <span class="value" id="redValue">100</span>
+        </div>
+
+        <div class="control-group">
+            <label for="green">Verde</label>
+            <input type="range" id="green" name="green" min="0" max="255" value="150">
+            <span class="value" id="greenValue">150</span>
+        </div>
+
+        <div class="control-group">
+            <label for="blue">Azul</label>
+            <input type="range" id="blue" name="blue" min="0" max="255" value="200">
+            <span class="value" id="blueValue">200</span>
+        </div>
     </div>
-    <br>
-    <div id="buttons">
-        <button id ="aumentar">Aumentar</button>
-        <button id ="disminuir">Disminuir</button>
-        <button id ="resetear">Resetear</button>
-    </div>
+
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
